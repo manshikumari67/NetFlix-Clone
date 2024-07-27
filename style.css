@@ -1,0 +1,315 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.main{
+    height: 600.33px;
+    background-image: url(new\ bgg.jpg);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+ .nav{
+    height: 50px;
+    width: 719.33;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aliceblue; */
+    position: relative;
+    margin-top: 20px;
+ }
+.nav img{
+    height: 41px;
+    margin-left: 150px;
+    position: relative;
+    z-index: 10;
+    
+}
+.sign{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+
+}
+.box{
+    height: 730.33px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    opacity:15% ;
+    background-color: black;
+
+}
+#sign{
+     width: 75.99px;
+     height: 32px;
+     /* border: 1px solid black; */
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-decoration: none;
+     background-color: red;
+     color: #ffffff;
+     border-radius: 5px;
+     margin-right: 100px;
+}
+#lang{
+    margin-right: 20px;
+    width: 122.67px;
+     height: 32px;
+    text-align: center;
+    background-color: transparent;
+    border: 0.1px solid gray;
+    border-radius: 5px;
+    color: #ffffff;
+   
+    
+}
+#logo2{
+    height: 30px;
+    width: 30px;
+    color: white;
+    padding-right: 10px;
+}
+.content{
+    color: #ffffff;
+}
+h1{
+     margin-top: 200px;
+    font-size: 45px; 
+    height: 60.67px;
+    text-align: center; 
+}
+p{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 25px;
+}
+h3{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 20px;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-top: 40px;
+}
+#input{
+    height: 56px;
+    width: 349px;
+    border-radius:5px;
+    color: #ffffff;
+    opacity: 70%;
+    background:rgb(37, 49, 70);
+    border: 1px solid white;
+    font-size: 20px;
+    
+
+    
+}
+#btn{
+   margin-left: 10px;
+    height: 56px;
+    width: 207px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.centre{
+    margin-top: 600px;
+    height: 530px;
+    width: 100%;
+    background-color: black;
+}
+.line{
+    height: 8px;
+    background-color: rgb(56, 54, 54);
+}
+.centre2{
+    height: 540px;
+    width: 100%;
+    background-color: black;
+}
+.one{
+    height: 300px;
+    width: 600px;
+    margin-left: 80px;
+    margin-top: 90px;
+    color: white;
+    text-align: center;
+    
+   
+}
+.di{
+    height: 450px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+#first{
+    font-size: 50px;
+    margin-top: 60px;
+    margin-left: 40px;
+    text-align: left;
+}
+#sec{
+    margin-left: 40px;
+    text-align: left;
+    font-size: 25px;
+}
+#img1{
+    margin-top: 50px;
+    height: 350px;
+    position: relative;
+    z-index: 10;
+    
+} 
+#four{
+    margin-left: 100px;
+}
+.two{
+    height: 300px;
+    width: 600px;
+    margin-left: 10px;
+    margin-top: 90px;
+    color: white;
+    text-align: center;
+    
+}
+.centre3{
+    height: 970px;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+.ques{
+    height: 720px;
+    width: 90%;
+   
+    margin-top: 20px;
+    margin-left: 90px;
+    
+}
+#q{
+    font-size: 50px;
+}
+.six{
+    height: 90px;
+    width: 830px;
+    margin-top: 10px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 20px;
+    background-color: rgb(53, 50, 50);
+}
+.six i{
+    
+    font-size: 50px;
+    margin-right: 20px;
+}
+#netf{
+    margin-top: 40px;
+}
+#ready{
+    margin-top: 40px;
+    font-size: 20px;
+}
+#footerpara{
+    margin-top: 70px;
+    margin-right: 600px;
+    color: white;
+    font-size: 15px;
+}
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 170px;
+    width: 95%;
+    margin-left: 30px;
+    padding-top: 70px;
+    
+}
+.pehla{
+   
+    width: 170px;
+    height: 220px;
+}
+.dusra{
+   
+    width: 180px;
+    height: 220px;
+}
+.tesra{
+   
+    width: 170px;
+    height: 220px;
+}
+.choutha{
+
+    width: 170px;
+    height: 220px;
+}
+.footer ul a{
+    color: gray;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+
+}
+#nextlang{
+    
+    width: 122.67px;
+     height: 32px;
+    text-align: center;
+    background-color: transparent;
+    border: 0.1px solid gray;
+    border-radius: 5px;
+    color: #ffffff;
+    margin-left: 130px;
+}
+#netflixIndia{
+    color: #b7b5b5;
+    margin-right: 880px;
+    font-size: 20px;
+}
+#video{
+    position: absolute;
+   
+    right: 0;
+    height: 200px;
+    margin-top: 120px;
+    margin-right: 100px;
+    width: 520px;
+}
+#video2{
+    position: absolute;
+   
+    right: 0;
+    height: 170px;
+    margin-top: 70px;
+    margin-right: 160px;
+    width: 400px;
+}
